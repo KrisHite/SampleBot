@@ -5,6 +5,9 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import ru.samplebot.service.Bot;
 
+/**
+ * Чтобы работало необходимо вписать в файле Proprties токен и имя бота!
+ */
 public class Main {
     public static void main(String[] args) {
         try {//Тут бот регистрируется и запускается
